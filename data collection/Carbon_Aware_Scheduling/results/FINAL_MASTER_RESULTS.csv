@@ -1,0 +1,10 @@
+experiment,profile,flexibility_minutes,baseline_carbon_gco2,carbon_aware_carbon_gco2,carbon_savings_gco2,carbon_savings_percent
+Scheduling Flexibility,Real 7-Day Data,0,1599.81,1599.81,0.0,0.0
+Scheduling Flexibility,Real 7-Day Data,30,1599.81,1585.54,14.27,0.89
+Scheduling Flexibility,Real 7-Day Data,60,1599.81,1575.83,23.98,1.5
+Scheduling Flexibility,Real 7-Day Data,120,1599.81,1561.28,38.53,2.41
+Scheduling Flexibility,Real 7-Day Data,180,1599.81,1532.51,67.3,4.21
+Carbon Profile,Real,60,231.26,227.8,3.46,1.5
+Carbon Profile,High +50%,60,346.89,341.7,5.19,1.5
+Carbon Profile,Reversed,60,191.68,183.5,8.18,4.27
+Workload Size,Small (J1-J5),60,112.85,110.62,2.23,1.98

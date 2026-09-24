@@ -1,0 +1,79 @@
+
+this isss ------- comparative experimental sensitivity analysis
+
+installed matplotlib using cli
+
+https://api.carbonintensity.org.uk/intensity/date
+
+| Scheduling flexibility | Baseline (gCO₂) | Carbon-aware (gCO₂) | Savings (gCO₂) | Savings (%) |
+| ---------------------: | --------------: | ------------------: | -------------: | ----------: |
+|                  0 min |          231.26 |              231.26 |           0.00 |       0.00% |
+|                 30 min |          231.26 |              228.57 |           2.69 |       1.16% |
+|                 60 min |          231.26 |              227.80 |           3.46 |       1.50% |
+|                120 min |          231.26 |              224.37 |           6.89 |       2.98% |
+|                180 min |          231.26 |              219.42 |          11.84 |       5.12% |
+
+
+| Carbon profile |    Baseline | Carbon-aware |   Savings | Savings % |
+| -------------- | ----------: | -----------: | --------: | --------: |
+| Real           | 231.26 gCO₂ |  227.80 gCO₂ | 3.46 gCO₂ | **1.50%** |
+| High (+50%)    | 346.89 gCO₂ |  341.70 gCO₂ | 5.19 gCO₂ | **1.50%** |
+
+| Date   | Savings |
+| ------ | ------: |
+| Aug 24 |  +1.21% |
+| Aug 25 |  −0.30% |
+| Aug 26 |  +0.14% |
+| Aug 27 |  +0.70% |
+| Aug 28 |  +0.11% |
+| Aug 29 |  −0.13% |
+| Aug 30 |  +1.50% |
+
+| Flexibility | Average savings |
+| ----------: | --------------: |
+|       0 min |           0.00% |
+|      30 min |           0.88% |
+|      60 min |           1.46% |
+|     120 min |           2.20% |
+|     180 min |           3.57% |
+
+| Flexibility | Total baseline | Carbon-aware | Savings | Overall reduction |
+| ----------: | -------------: | -----------: | ------: | ----------------: |
+|       0 min |        1599.81 |      1599.81 |    0.00 |             0.00% |
+|      30 min |        1599.81 |      1585.54 |   14.27 |             0.89% |
+|      60 min |        1599.81 |      1575.83 |   23.98 |             1.50% |
+|     120 min |        1599.81 |      1561.28 |   38.53 |             2.41% |
+|     180 min |        1599.81 |      1532.51 |   67.30 |             4.21% |
+
+| Flexibility | Baseline (gCO₂) | Carbon-aware (gCO₂) | Savings (gCO₂) | Savings (%) |
+| ----------: | --------------: | ------------------: | -------------: | ----------: |
+|       0 min |         1599.81 |             1599.81 |           0.00 |        0.00 |
+|      30 min |         1599.81 |             1585.54 |          14.27 |        0.89 |
+|      60 min |         1599.81 |             1575.83 |          23.98 |        1.50 |
+|     120 min |         1599.81 |             1561.28 |          38.53 |        2.41 |
+|     180 min |         1599.81 |             1532.51 |          67.30 |        4.21 |
+
+Across the seven-day real carbon-intensity dataset, increasing scheduling flexibility from 0 to 180 minutes increased aggregate carbon savings from 0.00% to 4.21%, corresponding to 67.30 gCO₂ of avoided emissions.
+
+Figure 4. Baseline and carbon-aware carbon emissions across different levels of scheduling flexibility using the seven-day real carbon-intensity dataset.
+
+Figure 5. Daily carbon savings achieved by carbon-aware scheduling across the seven-day real carbon-intensity dataset at 60 minutes of scheduling flexibility.
+
+Figure 1 is good: it reflects the full 7-day real dataset, with 324 observations and the 40–224 gCO₂/kWh range.
+
+Figure 2 is the key result and is correct: savings increase from 0% at 0 minutes to 4.21% at 180 minutes across the seven-day aggregate.
+
+Figure 3 is also correct for the carbon-profile sensitivity experiment: 1.50% Real, 1.50% High (+50%), and 4.27% Reversed.
+
+Our final evidence base is:
+
+Real carbon data: 7 days, 324 observations, 40–224 gCO₂/kWh.
+Workload: 10 controlled jobs.
+Flexibility experiment: 0, 30, 60, 120, 180 minutes.
+Main result: 4.21% aggregate carbon savings at 180 minutes, equal to 67.30 gCO₂.
+Daily variation: 0.01%–9.68% savings at 60-minute flexibility.
+Carbon-profile sensitivity: Real 1.50%, High +50% 1.50%, Reversed 4.27%.
+Workload sensitivity: Small workload 1.98%.
+Figures: 5 finalized.
+Tables: 4 finalized.
+Audit: all checks passed.

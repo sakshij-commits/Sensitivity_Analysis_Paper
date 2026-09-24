@@ -1,0 +1,6 @@
+flexibility_minutes,total_baseline_gco2,total_carbon_aware_gco2,total_savings_gco2,overall_savings_percent
+0,1599.81,1599.81,0.0,0.0
+30,1599.81,1585.54,14.27,0.89
+60,1599.81,1575.83,23.98,1.5
+120,1599.81,1561.28,38.53,2.41
+180,1599.81,1532.51,67.3,4.21

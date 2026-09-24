@@ -1,0 +1,6 @@
+job_id,arrival_time,runtime_minutes,cpu_cores,max_delay_minutes
+J1,05:00,30,2,180
+J2,05:30,60,4,60
+J3,06:00,20,1,120
+J4,06:30,90,8,180
+J5,07:00,45,4,60

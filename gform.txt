@@ -1,0 +1,25 @@
+gform
+
+Research Area or Domain:
+Sustainable Cloud Computing / Green Cloud Computing – Carbon-Aware Workload Scheduling
+
+Final Research Title:
+Sensitivity Analysis of Carbon-Aware Scheduling in Cloud Computing
+
+Technology Stack:
+Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Public Cloud Workload Traces and Carbon-Intensity Datasets
+isme na sirf gform meinyeh bhara hai (Python, Pandas, Matplotlib)
+
+Existing Research Work:
+Existing research has studied carbon-aware cloud scheduling through temporal and geographical workload shifting, carbon-intensity-based scheduling, workload flexibility, carbon-intensity forecasting, and optimization of carbon emissions along with cost and performance. Studies have demonstrated that carbon-aware scheduling can reduce emissions, but the reported benefits vary across workloads, regions, carbon-intensity profiles and scheduling constraints.
+
+Identified Research Gap:
+Existing studies evaluate carbon-aware scheduling under different experimental conditions and methodologies. As a result, reported carbon-saving percentages are not always directly comparable. There is a need for a systematic sensitivity analysis using a common evaluation framework to determine how changes in workload characteristics, carbon-intensity conditions and scheduling flexibility affect the estimated carbon-saving benefits.
+
+Research Objectives:
+
+To review existing carbon-aware scheduling approaches and their evaluation methodologies.
+To identify key experimental factors that influence reported carbon-saving results.
+To develop a common framework for evaluating carbon-aware scheduling.
+To analyze the effect of workload characteristics, carbon-intensity profiles and scheduling flexibility on estimated carbon savings.
+To quantify and compare the sensitivity of carbon-saving results to these factors and identify the factors with the greatest influence.
