@@ -1,0 +1,10 @@
+experiment,carbon_profile,profile_type,flexibility_minutes,usable_data_points,baseline_carbon_gco2,carbon_aware_carbon_gco2,carbon_savings_gco2,carbon_savings_percent
+Flexibility,Real,Real data,0,34,231.26,231.26,0.00,0.00
+Flexibility,Real,Real data,30,34,231.26,228.57,2.69,1.16
+Flexibility,Real,Real data,60,34,231.26,227.80,3.46,1.50
+Flexibility,Real,Real data,120,34,231.26,224.37,6.89,2.98
+Flexibility,Real,Real data,180,34,231.26,219.42,11.84,5.12
+Carbon Profile,Real,Real data,60,34,231.26,227.80,3.46,1.50
+Carbon Profile,High (+50%),Controlled transformation,60,34,346.89,341.70,5.19,1.50
+Carbon Profile,Reversed,Controlled transformation,60,34,191.68,183.50,8.18,4.27
+Workload,Small (J1-J5),Subset of original workload,60,34,112.85,110.62,2.23,1.98
